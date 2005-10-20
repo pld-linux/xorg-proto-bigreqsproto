@@ -25,7 +25,7 @@ Summary:	BigReqs protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u BigReqs i pomocnicze
 Group:		X11/Development/Libraries
 # just for dirs
-Requires:	xorg-proto-xproto
+Requires:	xorg-proto-xproto-devel
 
 %description devel
 BigReqs protocol and ancillary headers.
