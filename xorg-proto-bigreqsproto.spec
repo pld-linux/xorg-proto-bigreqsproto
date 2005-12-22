@@ -5,8 +5,8 @@ Version:	1.0.2
 Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC4/proto/bigreqsproto-%{version}.tar.bz2
-# Source0-md5:	0af2c8aa47f5ff24f1fc2a3f5f91fb17
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/bigreqsproto-X11R7.0-%{version}.tar.bz2
+# Source0-md5:	ec15d17e3f04ddb5870ef7239b4ab367
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -33,7 +33,7 @@ BigReqs protocol and ancillary headers.
 Nag³ówki protoko³u BigReqs i pomocnicze.
 
 %prep
-%setup -q -n bigreqsproto-%{version}
+%setup -q -n bigreqsproto-X11R7.0-%{version}
 
 %build
 %{__aclocal}
