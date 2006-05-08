@@ -6,7 +6,7 @@ Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/bigreqsproto-%{version}.tar.bz2
-# Source0-md5:	ec15d17e3f04ddb5870ef7239b4ab367
+# Source0-md5:	95c29d9d10bf2868996c0c47a3b9a8dc
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
