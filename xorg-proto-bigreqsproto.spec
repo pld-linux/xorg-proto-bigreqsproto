@@ -5,7 +5,7 @@ Version:	1.0.2
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/bigreqsproto-X11R7.0-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/proto/bigreqsproto-%{version}.tar.bz2
 # Source0-md5:	ec15d17e3f04ddb5870ef7239b4ab367
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
