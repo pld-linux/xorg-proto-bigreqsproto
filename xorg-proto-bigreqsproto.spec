@@ -33,7 +33,7 @@ BigReqs protocol and ancillary headers.
 Nag³ówki protoko³u BigReqs i pomocnicze.
 
 %prep
-%setup -q -n bigreqsproto-X11R7.0-%{version}
+%setup -q -n bigreqsproto-%{version}
 
 %build
 %{__aclocal}
