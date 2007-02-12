@@ -1,5 +1,5 @@
 Summary:	BigReqs protocol and ancillary headers
-Summary(pl):	Nag丑wki protoko硊 BigReqs i pomocnicze
+Summary(pl.UTF-8):   Nag艂贸wki protoko艂u BigReqs i pomocnicze
 Name:		xorg-proto-bigreqsproto
 Version:	1.0.2
 Release:	1
@@ -16,12 +16,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 BigReqs protocol and ancillary headers.
 
-%description -l pl
-Nag丑wki protoko硊 BigReqs i pomocnicze.
+%description -l pl.UTF-8
+Nag艂贸wki protoko艂u BigReqs i pomocnicze.
 
 %package devel
 Summary:	BigReqs protocol and ancillary headers
-Summary(pl):	Nag丑wki protoko硊 BigReqs i pomocnicze
+Summary(pl.UTF-8):   Nag艂贸wki protoko艂u BigReqs i pomocnicze
 Group:		X11/Development/Libraries
 # just for dirs
 Requires:	xorg-proto-xproto-devel
@@ -29,8 +29,8 @@ Requires:	xorg-proto-xproto-devel
 %description devel
 BigReqs protocol and ancillary headers.
 
-%description devel -l pl
-Nag丑wki protoko硊 BigReqs i pomocnicze.
+%description devel -l pl.UTF-8
+Nag艂贸wki protoko艂u BigReqs i pomocnicze.
 
 %prep
 %setup -q -n bigreqsproto-%{version}
