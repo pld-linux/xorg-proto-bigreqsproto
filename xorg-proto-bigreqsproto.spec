@@ -1,5 +1,5 @@
 Summary:	BigReqs protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu BigReqs i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu BigReqs i pomocnicze
 Name:		xorg-proto-bigreqsproto
 Version:	1.0.2
 Release:	1
@@ -21,7 +21,7 @@ Nagłówki protokołu BigReqs i pomocnicze.
 
 %package devel
 Summary:	BigReqs protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu BigReqs i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu BigReqs i pomocnicze
 Group:		X11/Development/Libraries
 # just for dirs
 Requires:	xorg-proto-xproto-devel
