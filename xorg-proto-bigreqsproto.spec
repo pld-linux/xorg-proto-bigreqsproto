@@ -1,12 +1,12 @@
 Summary:	BigReqs protocol and ancillary headers
 Summary(pl.UTF-8):	Nagłówki protokołu BigReqs i pomocnicze
 Name:		xorg-proto-bigreqsproto
-Version:	1.0.2
-Release:	2
+Version:	1.1.0
+Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/bigreqsproto-%{version}.tar.bz2
-# Source0-md5:	95c29d9d10bf2868996c0c47a3b9a8dc
+# Source0-md5:	d30c5dbf19ca6dffcd9788227ecff8c5
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
