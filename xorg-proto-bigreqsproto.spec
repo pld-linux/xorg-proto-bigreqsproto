@@ -1,5 +1,5 @@
-Summary:	BigReqs protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu BigReqs i pomocnicze
+Summary:	BigReqs extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia BigReqs
 Name:		xorg-proto-bigreqsproto
 Version:	1.1.0
 Release:	1
@@ -10,27 +10,27 @@ Source0:	http://xorg.freedesktop.org/releases/individual/proto/bigreqsproto-%{ve
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
-BuildRequires:	xorg-util-util-macros
+BuildRequires:	xorg-util-util-macros >= 1.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-BigReqs protocol and ancillary headers.
+BigReqs extension headers.
 
 %description -l pl.UTF-8
-Nagłówki protokołu BigReqs i pomocnicze.
+Nagłówki rozszerzenia BigReqs.
 
 %package devel
-Summary:	BigReqs protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu BigReqs i pomocnicze
+Summary:	BigReqs extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia BigReqs
 Group:		X11/Development/Libraries
 # just for dirs
 Requires:	xorg-proto-xproto-devel
 
 %description devel
-BigReqs protocol and ancillary headers.
+BigReqs extension headers.
 
 %description devel -l pl.UTF-8
-Nagłówki protokołu BigReqs i pomocnicze.
+Nagłówki rozszerzenia BigReqs.
 
 %prep
 %setup -q -n bigreqsproto-%{version}
@@ -56,5 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog
-%{_includedir}/X11/extensions/*.h
+%{_includedir}/X11/extensions/bigreqs*.h
 %{_pkgconfigdir}/bigreqsproto.pc
