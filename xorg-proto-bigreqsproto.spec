@@ -1,39 +1,39 @@
-Summary:	BigReqs extension headers
-Summary(pl.UTF-8):	Nagłówki rozszerzenia BigReqs
+Summary:	Big Requests extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia Big Requests
 Name:		xorg-proto-bigreqsproto
-Version:	1.1.1
+Version:	1.1.2
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/bigreqsproto-%{version}.tar.bz2
-# Source0-md5:	6f6c24436c2b3ab235eb14a85b9aaacf
+# Source0-md5:	1a05fb01fa1d5198894c931cf925c025
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
-BuildRequires:	docbook-dtd412-xml
-BuildRequires:	xmlto >= 0.0.20
-BuildRequires:	xorg-sgml-doctools >= 1.5
-BuildRequires:	xorg-util-util-macros >= 1.10
+BuildRequires:	docbook-dtd43-xml
+BuildRequires:	xmlto >= 0.0.22
+BuildRequires:	xorg-sgml-doctools >= 1.8
+BuildRequires:	xorg-util-util-macros >= 1.12
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-BigReqs extension headers.
+Big Requests extension headers.
 
 %description -l pl.UTF-8
-Nagłówki rozszerzenia BigReqs.
+Nagłówki rozszerzenia Big Requests.
 
 %package devel
-Summary:	BigReqs extension headers
-Summary(pl.UTF-8):	Nagłówki rozszerzenia BigReqs
+Summary:	Big Requests extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia Big Requests
 Group:		X11/Development/Libraries
 # just for dirs
 Requires:	xorg-proto-xproto-devel
 
 %description devel
-BigReqs extension headers.
+Big Requests extension headers.
 
 %description devel -l pl.UTF-8
-Nagłówki rozszerzenia BigReqs.
+Nagłówki rozszerzenia Big Requests.
 
 %prep
 %setup -q -n bigreqsproto-%{version}
@@ -57,6 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog README specs/*.{html,css}
+%doc COPYING ChangeLog README specs/bigreq.html
 %{_includedir}/X11/extensions/bigreqs*.h
 %{_pkgconfigdir}/bigreqsproto.pc
