@@ -2,7 +2,7 @@ Summary:	Big Requests extension headers
 Summary(pl.UTF-8):	Nagłówki rozszerzenia Big Requests
 Name:		xorg-proto-bigreqsproto
 Version:	1.1.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/bigreqsproto-%{version}.tar.bz2
