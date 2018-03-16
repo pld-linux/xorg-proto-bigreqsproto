@@ -1,13 +1,14 @@
+# NOTE: now maintained in xorg-proto-xorgproto.spec
 Summary:	Big Requests extension headers
 Summary(pl.UTF-8):	Nagłówki rozszerzenia Big Requests
 Name:		xorg-proto-bigreqsproto
 Version:	1.1.2
-Release:	2
+Release:	2.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/individual/proto/bigreqsproto-%{version}.tar.bz2
+Source0:	https://xorg.freedesktop.org/releases/individual/proto/bigreqsproto-%{version}.tar.bz2
 # Source0-md5:	1a05fb01fa1d5198894c931cf925c025
-URL:		http://xorg.freedesktop.org/
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	docbook-dtd43-xml
